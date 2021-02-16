@@ -1,0 +1,1 @@
+A basic Food ordering web application using Django.
