@@ -1,0 +1,9 @@
+[program:foodie_service]
+command = /home/amarnath/Desktop/My_projects/foodie/conf/gunicorn_service
+user = amarnath
+stdout_logfile = /home/amarnath/Desktop/My_projects/foodie/logs/gunicorn_service.out.log
+stderr_logfile = /home/amarnath/Desktop/My_projects/foodie/logs/gunicorn_service.err.log
+redirect_stderr = true
+environment=LANG=en_us.UTF_8,LC_ALL=en_us.UTF_8
+autostart = true
+autorestart = true
